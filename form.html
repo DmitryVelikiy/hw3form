@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form>
+        <fieldset>
+            <legend>Личные данные</legend>
+            <label for="fname">Имя:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Фамилия:</label>
+            <input type="text" id="lname" name="fname"><br>
+            <label for="dateb">День рождения</label>
+            <input type="date" name="dateb" id="dateb"><br>
+            <input type="radio" name="gender" id="genderm" value="Male">
+            <label for="genderm">Male</label>
+            <input type="radio" name="gender" id="genderf">
+            <label for="genderf">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Адресные данные</legend>
+            <label for="city">Город:</label>
+            <select name="city" id="city">
+                <option value="">Выберите город</option>
+                <option value="zp">Запорожье</option>
+                <option value="kv">Киев</option>
+                <option value="dp">Днепр</option>
+                <option value="kh">Харьков</option>
+            </select><br>
+            <label for="street">Улица</label>
+            <input type="text" name="street" id="street"><br>
+            <label for="building">Номер дома</label>
+            <input type="text" name="building" id="building"><br>
+            <label for="home">Квартира</label>
+            <input type="text" name="home" id="home">
+        </fieldset>
+        <fieldset>
+            <legend>Контактные данные</legend>
+            <label for="mobphone">Мобильный</label>
+            <input type="text" name="mobphone" id="mobphone"><br>
+            <label for="workphone">Рабочий</label>
+            <input type="text" name="workphone" id="workphone"><br>
+            <label for="homephone">Домашний</label>
+            <input type="text" name="homephone" id="homephone"><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+        </fieldset>
+            <button>Cancel</button>
+            <button>Ok</button>
+    </form>
+</body>
+</html>
